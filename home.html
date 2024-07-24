@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUDRE</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<!--<body>-->
+<!--<body class="thunder">-->
+<!--    <canvas id="canvas1"></canvas>-->
+<!--    <canvas id="canvas2"></canvas>-->
+<!--    <canvas id="canvas3"></canvas>-->
+<body class="thunder">
+<div class="background">
+    <canvas id="canvas1"></canvas>
+    <canvas id="canvas2"></canvas>
+    <canvas id="canvas3"></canvas>
+</div>
+
+<div class="loader" id="loader">Loading...</div>
+
+<div class="banner" id="banner">
+    <video autoplay muted loop id="background-video">
+        <source src="background.mp4" type="video/mp4">
+    </video>
+    <h2>kudre</h2>
+</div>
+
+<div class="everything">
+
+<h1 id="title" class="fadeIn">KUDRE</h1>
+
+<div class="content hidden" id="content">
+    <!-- Page Links Container -->
+<!--    <div class="pagelinks">-->
+        <!-- Hover Box #1 -->
+        <div class="box-1">
+            <button onclick="window.open('https://linktr.ee/kudreofficial', '_blank')" class="btn btn-one slideIn">
+                <span>MUSIC</span>
+            </button>
+        </div>
+
+        <!-- Hover Box #2 -->
+        <div class="box-1">
+            <button onclick="window.open('https://dice.fm/event/l8agpr-kudre-sweet-houdini-gonzo-fever-17th-aug-two-palms-london-tickets?lng=en', '_blank')" class="btn btn-one slideIn">
+                <span>SHOWS</span>
+            </button>
+        </div>
+
+        <!-- Hover Box #3 -->
+        <div class="box-1">
+            <button onclick="window.location.href='mail_list.html'" class="btn btn-one slideIn">
+                <span>MAILING LIST</span>
+            </button>
+        </div>
+    </div>
+<!--</div>-->
+
+
+<div class="scrolling-link">
+    <div class="scrolling-content">
+        <a href="https://distrokid.com/hyperfollow/kudre/my-design">
+            MY DESIGN IS OUT 26TH JULY! CLICK HERE TO PRE-SAVE!
+        </a>
+        <a href="https://distrokid.com/hyperfollow/kudre/my-design">
+            MY DESIGN IS OUT 26TH JULY -
+        </a>
+<!--        <p>MY DESIGN IS OUT 26TH JULY. PRE-SAVE BELOW! </p>-->
+<!--        <p>MY DESIGN IS OUT 26TH JULY. PRE-SAVE BELOW! </p>-->
+<!--        <p>MY DESIGN IS OUT 26TH JULY. PRE-SAVE BELOW! </p>-->
+    </div>
+</div>
+
+<div class="new-release">
+    <p>My Design comes out Saturday 27th of July. Click the record to pre-save.</p>
+    <a href="javascript:void(0);" id="flip-link">
+        <img src="vinylmydesign.png" alt="My Design" class="center-image" style="width:200px;height:200px;">
+    </a>
+</div>
+
+<div class="bio">
+<h2>Bio:</h2>
+<p>Kudre is a three-piece alt-rock band hailing from South East
+    London. Our music delves into the raw and honest facets of
+    life, drawing inspiration from a diverse range of
+    influences. Known for our intense and visceral sound,
+    we create music that resonates deeply with listeners,
+    capturing the darker themes that often go unspoken.
+    Explore our latest releases, upcoming shows, and more
+    through the links provided. Join us on this musical
+    journey and experience the unfiltered energy of Kudre.
+</p>
+</div>
+
+<div class="img-container">
+    <img src="homeimage.jpg" alt="Kudre Band" class="central-image">
+</div>
+
+<div class="new-music">
+    <div class="left-new-music">
+    <h2>PINK!</h2>
+<p>Kudre’s latest single “Pink” reflects on the themes of
+    mistakes and accountability. Hailing from Southeast
+    London, Kudre channels influences like Nirvana and
+    Red Hot Chili Peppers. The song opens with “I’ve got
+    a rhythm/But the rhythm don’t play,” capturing the
+    struggle of finding one's groove amidst life's
+    challenges. With powerful vocals, energetic guitar,
+    and dramatic bass, "Pink" is an anthem of
+    frustration and resilience. Kudre aims to
+    “bring meaning back into rock music,”
+    delivering a raw, authentic experience
+    reminiscent of live performances.
+    <a href="https://iamur.one/kudre-pink/">
+        Check out the full article here.</a>
+</p>
+    </div>
+    <div class="player">
+        <h3>Play Me!</h3>
+        <div class="vinyl-container">
+            <img id="vinyl" src="pinkvinyl.png" alt="Vinyl Record">
+        </div>
+        <div class="controls">
+            <button id="playPauseBtn">Play</button>
+            <input type="range" id="seekSlider" value="0" max="100">
+            <div id="timer">0:00 / 0:00</div>
+        </div>
+        <audio id="audioPlayer" src="Pink.mp3"></audio>
+    </div>
+</div>
+
+<div class="shows">
+    <h2>SHOWS</h2>
+    <p>Headline at Two Palms</p>
+    <p>
+    <a href="https://dice.fm/event/l8agpr-kudre-sweet-houdini-gonzo-fever-17th-aug-two-palms-london-tickets?lng=en">
+        Click here for tickets</a>
+    </p>
+</div>
+
+
+
+<div class="social-links">
+    <a href="https://www.instagram.com/kudreofficial/" target="_blank" class="social-icon slideIn">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.facebook.com/KudreOfficial/" target="_blank" class="social-icon slideIn">
+        <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.tiktok.com/@jameskudrecrick" target="_blank" class="social-icon slideIn">
+        <i class="fab fa-tiktok"></i>
+    </a>
+    <a href="https://www.youtube.com/@kudreofficial" target="_blank" class="social-icon slideIn">
+        <i class="fab fa-youtube"></i>
+    </a>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var video = document.getElementById('background-video');
+        var banner = document.getElementById('banner');
+        var loader = document.getElementById('loader');
+        var content = document.getElementById('content');
+        var title = document.getElementById('title');
+        var animateElements = document.querySelectorAll('.slideIn');
+
+        var animationStarted = false;
+
+        function startAnimation() {
+            if (!animationStarted) {
+                animationStarted = true;
+                console.log("Starting animation...");
+                loader.style.display = 'none';
+                banner.style.animation = 'shrinkBanner 7s forwards';
+                content.classList.remove('hidden');
+                setTimeout(function() {
+                    console.log("Animation complete. Showing content...");
+                    content.style.opacity = 1;
+                }, 7000);
+            }
+        }
+
+        video.addEventListener('canplaythrough', function() {
+            console.log("Video can play through. Starting animation...");
+            startAnimation();
+        });
+
+        setTimeout(function() {
+            if (!animationStarted) {
+                console.log("Fallback: Video taking too long. Starting animation...");
+                startAnimation();
+            }
+        }, 4000);
+
+        document.getElementById('flip-link').addEventListener('click', function() {
+            var img = this.querySelector('img');
+            img.classList.add('flip-animation');
+            setTimeout(function() {
+                window.location.href = 'https://distrokid.com/hyperfollow/kudre/my-design';
+            }, 1000); // Delay redirection to allow animation to complete
+        });
+    });
+</script>
+</div>
+<script src="script.js"></script>
+
+
+</body>
+</html>
