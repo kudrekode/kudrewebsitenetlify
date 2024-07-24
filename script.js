@@ -241,33 +241,3 @@ function animloop() {
 animloop();
 
 
-//
-// function updateRainSettings() {
-//     var width = window.innerWidth;
-//     if (width < 768) { // Adjust values for smaller screens
-//         rainthroughnum = 250;
-//         rainnum = 250;
-//         speedRainTrough = 12;
-//     } else { // Default values for larger screens
-//         rainthroughnum = 500;
-//         rainnum = 500;
-//         speedRainTrough = 25;
-//     }
-// }
-//
-// window.addEventListener('resize', function() {
-//     w = canvas1.width = canvas2.width = canvas3.width = window.innerWidth;
-//     h = canvas1.height = canvas2.height = canvas3.height = window.innerHeight;
-//     updateRainSettings(); // Update rain settings on resize
-// });
-//
-// updateRainSettings(); // Initial call to set rain settings
-//
-// function animloop() {
-//     animateRainTrough();
-//     animateRain();
-//     animateLightning();
-//     requestAnimationFrame(animloop);
-// }
-// animloop();
-
