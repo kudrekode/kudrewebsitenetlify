@@ -239,5 +239,3 @@ function animloop() {
     requestAnimationFrame(animloop);
 }
 animloop();
-
-

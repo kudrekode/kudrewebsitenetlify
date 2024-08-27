@@ -172,7 +172,7 @@ body, html {
     padding: 10px;
 }
 
-.new-release {
+.new-release,.bio {
     background-color: deeppink;
     align-items: center;
     justify-content: center;
@@ -188,7 +188,7 @@ body, html {
     margin-bottom: 15px;
 }
 
-.new-release p {
+.new-release p,.bio p {
     color: white;
     margin-left: 15px;
     padding-left: 20px;
@@ -201,10 +201,21 @@ body, html {
 /*}*/
 .new-release .center-image {
     max-width: 300px;
-    height: auto; /* This maintains the aspect ratio */
+    height: auto;
     display: block;
-    margin: 0 auto; /* Center the image */
+    margin: 0 auto;
 }
+.center-image-2{
+    max-width: 300px;
+    height: auto;
+    display: block;
+    /*margin: 0 auto;*/
+    /*margin-top*/
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .flip-animation {
     animation: flip 1s forwards;
 }
@@ -229,23 +240,23 @@ h1 {
     text-shadow: -2px 2px black;
 }
 
-.bio {
-    margin: auto;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    text-align: center;
-    background: deeppink;
-    border: 5px outset hsl(0, 0%, 56%);
-}
+/*.bio {*/
+/*    margin: auto;*/
+/*    color: white;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    width: 60%;*/
+/*    text-align: center;*/
+/*    background: deeppink;*/
+/*    border: 5px outset hsl(0, 0%, 56%);*/
+/*}*/
 
-.bio p {
-    margin: auto;
-    width: 80%;
-    /*padding: 10px;*/
-    padding-bottom: 10px;
-}
+/*.bio p {*/
+/*    margin: auto;*/
+/*    width: 80%;*/
+/*    !*padding: 10px;*!*/
+/*    padding-bottom: 10px;*/
+/*}*/
 
 .bio h2{
     padding: 10px;
@@ -480,11 +491,11 @@ h1 {
     .content {
         flex-direction: column;
     }
-    .new-release {
+    .new-release,.new-music,.bio {
         max-width: 90%;
     }
 
-    .center-image {
+    .center-image{
         /*width: 100px; !* Adjust image size for smaller screens *!*/
         height: 100px;
     }
