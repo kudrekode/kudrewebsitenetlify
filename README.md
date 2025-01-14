@@ -1,56 +1,79 @@
-# KUDRE Band Official Website
+# KUDRE Official Website
 
-A dynamic website for the alt-rock band KUDRE, featuring an interactive design with animated backgrounds and music playback capabilities.
+A modern, responsive React-based website for the alt-rock band KUDRE.
 
 ## Key Features
 
-### 🌩️ Dynamic Weather Animation
-- Custom-built rain and lightning animation system
-- Three-layered canvas implementation for depth
-- Responsive design that adapts to window resizing
+- **Dynamic Rain Animation Background**: Custom-built canvas-based animation featuring rain and lightning effects that creates an immersive atmosphere
+- **Responsive Design**: Fully responsive layout that works seamlessly across all devices and screen sizes
+- **Modern React Architecture**: Built with React and TypeScript for robust, type-safe code
+- **Component-Based Structure**: Modular components for easy maintenance and scalability
+- **Smooth Animations**: CSS animations for smooth transitions and engaging user experience
+- **Social Media Integration**: Easy access to all KUDRE's social media platforms
+- **Music and Video Showcase**: Embedded video player and links to latest releases
+- **Shows/Events Page**: Dedicated page for upcoming shows and events
 
-### 🎵 Interactive Music Player
-- Custom vinyl record animation during playback
-- Seek functionality with progress bar
-- Time display and playback controls
+## Technology Stack
 
-### 💫 Visual Effects
-- Smooth animations for content entry
-- Hover effects on interactive elements
-- Responsive image galleries
+- React 18
+- TypeScript
+- React Router for navigation
+- CSS3 with modern features
+- HTML5 Canvas for animations
+- Vite for fast development and building
 
-### 🎨 Design Elements
-- Custom color scheme with deep pink accents
-- Responsive layout for all screen sizes
-- Social media integration
-- Embedded video content
+## Project Structure
 
-## Technical Highlights
+```
+kudre-website/
+├── src/
+│   ├── assets/         # Images and static assets
+│   ├── background/     # Rain animation components
+│   ├── components/     # Reusable React components
+│   ├── pages/         # Page components
+│   ├── App.tsx        # Main App component
+│   └── main.tsx       # Entry point
+├── public/            # Public assets
+├── index.html         # HTML template
+└── package.json       # Dependencies and scripts
+```
 
-### Performance Optimizations
-- Canvas-based animations for smooth performance
-- Efficient DOM manipulation
-- Optimized image loading
+## Getting Started
 
-### Responsive Design
-- Mobile-first approach
-- Flexible grid layouts
-- Adaptive content sizing
-
-### Browser Compatibility
-- Cross-browser compatible animations
-- Fallback options for older browsers
-- Progressive enhancement approach
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Build for production:
+   ```bash
+   npm run build
+   ```
 
 ## Development
 
-To run this project locally:
-1. Clone the repository
-2. Open `home.html` in a modern web browser
-3. No build process required - pure HTML, CSS, and JavaScript
+- The site uses TypeScript for type safety
+- CSS modules for scoped styling
+- React Router for client-side routing
+- Custom hooks for animation logic
+- Responsive design with mobile-first approach
 
-## Future Improvements
-- Implement lazy loading for images
-- Add service worker for offline functionality
-- Enhance accessibility features
-- Add analytics tracking
+## Deployment
+
+The site is configured for deployment on Netlify with continuous integration. Any push to the main branch will trigger a new deployment.
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request
+
+## License
+
+This project is private and proprietary. All rights reserved.

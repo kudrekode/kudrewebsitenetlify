@@ -1,0 +1,189 @@
+.home-page {
+  min-height: 100vh;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center;
+  padding: 2rem; /* Add padding for spacing */
+  box-sizing: border-box; /* Prevent padding from affecting dimensions */
+}
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .social-icon {
+    color: white;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+    color: #037171;
+    }
+  
+  
+  #title {
+    font-size: 6rem;
+    letter-spacing: 0.5em;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    justify-content: center; /* Center horizontally */
+    gap: 1.5rem; /* Space between buttons */
+    width: 100%;
+    max-width: 800px; /* Optional for larger layouts */
+    padding: 2rem;
+}
+
+  
+
+.box-1 {
+  flex: 1 1 200px; /* Flexible size: minimum 200px width */
+  max-width: 300px; /* Limit the maximum width */
+  text-align: center; /* Center the content inside */
+}
+
+.btn {
+  position: relative; /* Confine pseudo-element to the button */
+  display: block;
+  text-decoration: none;
+  line-height: 40px;
+  font-size: 1.5rem;
+  border: 2px solid white;
+  transition: all 0.35s;
+  text-align: center;
+  padding: 0.5rem 0;
+  overflow: hidden; /* Ensure pseudo-element doesn’t overflow */
+}
+  
+  .btn span {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .btn:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: white;
+    z-index: 1; /* Ensure it appears below text */
+    transition: all 0.35s;
+}
+
+.btn:hover {
+    color: black;
+    z-index: 2; /* Ensure text stays above the pseudo-element */
+}
+
+.btn:hover:after {
+    width: 100%; /* Expand to full button width */
+}
+  
+  .bio {
+    max-width: 800px;
+    line-height: 1.6;
+    font-size: 1.2rem;
+  }
+  
+  .embedded-video {
+    margin: 3rem auto;
+    width: 100%; /* Use full width */
+    max-width: 0px; /* Allow it to be larger on wide screens */
+    aspect-ratio: 16/9;
+}
+
+.embedded-video iframe {
+    width: 100%;
+    height: 100%;
+    border: none; /* Remove border if present */
+}
+
+  .new-release {
+    margin: 4rem auto;
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .new-release h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .center-image {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0;
+    border-radius: 5px;
+  }
+  
+  .img-container {
+    margin: 3rem auto;
+    max-width: 800px;
+  }
+  
+  .central-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Animations */
+  .fadeIn {
+    animation: fadeIn 2s ease-in;
+  }
+  
+  .slideIn {
+    animation: slideIn 1s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #title {
+      font-size: 4rem;
+      letter-spacing: 0.3em;
+    }
+  
+    .bio {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+  
+    .social-links {
+      gap: 1rem;
+    }
+  
+    .new-release {
+      margin: 2rem 1rem;
+    }
+  }
