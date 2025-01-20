@@ -108,18 +108,11 @@ const Home: React.FC = () => {
 
       <div className="bio">
         <p>
-        Kudre is a three-piece alt-rock band from Southeast
-        London, channeling raw energy and unfiltered emotion
-        into their music.
-
-        Their sound has been described as “a dynamic
-        trend where technique and body blend together”
-        (Ghost Record Label) and as music that “hooks
-        you in with a catchy chorus but reveals so much
-        more with each listen” (Girl at the Rock Shows).
-        From the anthemic frustration of “Pink” to the
-        unrelenting power of “My Design,” Kudre crafts
-        songs that are raw, authentic, and drenched in meaning.
+          Will works in a pub. Jackson works
+          in an office. James retrofits stainless
+          steel woks with fucking lasers. One of
+          these is a lie. Together, it is a truth.
+          Kudre is southeast London's hottest new boy bands.
         </p>
       </div>
 
