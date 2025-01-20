@@ -26,11 +26,8 @@ const Home: React.FC = () => {
           {
             image: 'assets/pinkfull.png',
             title: 'Pink',
-            description: `Kudre's latest single "Pink" reflects on the themes of 
-              mistakes and accountability. Hailing from Southeast London, Kudre channels 
-              influences like Nirvana and Red Hot Chili Peppers. The song opens with 
-              "I've got a rhythm/But the rhythm don't play," capturing the struggle of 
-              finding one's groove amidst life's challenges. With powerful vocals, 
+            description: `"Pink" reflects on the themes of 
+              mistakes and accountability. With powerful vocals, 
               energetic guitar, and dramatic bass, "Pink" is an anthem of frustration 
               and resilience. Kudre aims to "bring meaning back into rock music," 
               delivering a raw, authentic experience reminiscent of live performances.`,
@@ -82,12 +79,11 @@ const Home: React.FC = () => {
         </a>
       </div>
 
-      <h1 id="title" className="fadeIn">KUDRE</h1>
+      {/*<h1 id="title" className="fadeIn">KUDRE</h1>*/}
 
-      {/* <div className="header_logo">
-        <img src="src/assets/logoheader.png" alt="Kudre Logo"></img>
-        <div className="shimmer"></div>
-    </div> */}
+        <div className="header_logo">
+        <img src="assets/logoheader.png" alt="Kudre Logo"></img>
+    </div>
 
 
       <div className="content">

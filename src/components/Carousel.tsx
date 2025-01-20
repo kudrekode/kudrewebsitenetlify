@@ -48,16 +48,17 @@ const Carousel: React.FC<CarouselProps> = ({ items, className = '', header }) =>
   return (
     <div className={`carousel-container ${className}`}>
       {header && <h3 className="carousel-header">{header}</h3>}
-      <button 
-        className="carousel-button prev" 
-        onClick={prevSlide}
-        disabled={isTransitioning}
-        aria-label="Previous slide"
-      >
-        <i className="fas fa-chevron-left"></i>
-      </button>
-
+      
       <div className="carousel-content">
+        <button
+          className="carousel-button prev"
+          onClick={prevSlide}
+          disabled={isTransitioning}
+          aria-label="Previous slide"
+        >
+          <i className="fas fa-chevron-left"></i>
+        </button>
+
         {items.map((item, index) => (
           <div
             key={index}
@@ -87,16 +88,16 @@ const Carousel: React.FC<CarouselProps> = ({ items, className = '', header }) =>
             </div>
           </div>
         ))}
-      </div>
 
-      <button 
-        className="carousel-button next" 
-        onClick={nextSlide}
-        disabled={isTransitioning}
-        aria-label="Next slide"
-      >
-        <i className="fas fa-chevron-right"></i>
-      </button>
+        <button
+          className="carousel-button next"
+          onClick={nextSlide}
+          disabled={isTransitioning}
+          aria-label="Next slide"
+        >
+          <i className="fas fa-chevron-right"></i>
+        </button>
+      </div>
 
       <div className="carousel-indicators">
         {items.map((_, index) => (

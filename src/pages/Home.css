@@ -7,15 +7,25 @@
   justify-content: center; /* Center vertically */
   align-items: center; /* Center horizontally */
   text-align: center;
-  padding: 2rem; /* Add padding for spacing */
   box-sizing: border-box; /* Prevent padding from affecting dimensions */
+}
+
+.header_logo img {
+  max-width: 20%;
+}
+
+.h1 {
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
 
   .social-links {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
   
   .social-icon {
@@ -42,7 +52,7 @@
     gap: 1.5rem; /* Space between buttons */
     width: 100%;
     max-width: 800px; /* Optional for larger layouts */
-    padding: 2rem;
+    padding-bottom: 2rem;
 }
 
   
@@ -101,7 +111,7 @@
   .embedded-video {
     margin: 3rem auto;
     width: 100%; /* Use full width */
-    max-width: 0px; /* Allow it to be larger on wide screens */
+    max-width: 700px; /* Allow it to be larger on wide screens */
     aspect-ratio: 16/9;
 }
 
@@ -175,7 +185,7 @@
     }
   
     .bio {
-      font-size: 1rem;
+      font-size: 1.2rem;
       padding: 0 1rem;
     }
   
@@ -186,4 +196,29 @@
     .new-release {
       margin: 2rem 1rem;
     }
+
+    .header_logo img {
+      max-width: 40%;
+      padding-bottom: 10px;
+    }
+
+    .box-1 {
+      flex: 1 1 200px; /* Flexible size: minimum 200px width */
+      max-width: 200px; /* Limit the maximum width */
+      text-align: center; /* Center the content inside */
+    }
+
+    .btn {
+      position: relative; /* Confine pseudo-element to the button */
+      display: block;
+      text-decoration: none;
+      line-height: 20px;
+      font-size: 1.5rem;
+      border: 1px solid white;
+      transition: all 0.35s;
+      text-align: center;
+      padding: 0.5rem 0;
+      overflow: hidden; /* Ensure pseudo-element doesn’t overflow */
+    }
+
   }
