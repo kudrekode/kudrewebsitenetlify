@@ -11,7 +11,8 @@
 }
 
 .header_logo img {
-  max-width: 20%;
+  padding-top: 20px;
+  max-width: 24%;
 }
 
 .h1 {
@@ -52,7 +53,6 @@
     gap: 1.5rem; /* Space between buttons */
     width: 100%;
     max-width: 800px; /* Optional for larger layouts */
-    padding-bottom: 2rem;
 }
 
   
@@ -198,6 +198,7 @@
     }
 
     .header_logo img {
+      padding-top: 20px;
       max-width: 40%;
       padding-bottom: 10px;
     }

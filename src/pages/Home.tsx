@@ -61,91 +61,97 @@ const Home: React.FC = () => {
 
       
   return (
-    <div className="home-page">
-      <RainAnimation />
-      
-      <div className="social-links">
-        <a href="https://www.instagram.com/kudreofficial/" target="_blank" rel="noopener noreferrer" className="social-icon slideIn">
-          <i className="fab fa-instagram"></i>
-        </a>
-        <a href="https://www.facebook.com/KudreOfficial/" target="_blank" rel="noopener noreferrer" className="social-icon slideIn">
-          <i className="fab fa-facebook"></i>
-        </a>
-        <a href="https://www.tiktok.com/@jameskudrecrick" target="_blank" rel="noopener noreferrer" className="social-icon slideIn">
-          <i className="fab fa-tiktok"></i>
-        </a>
-        <a href="https://www.youtube.com/@kudreofficial" target="_blank" rel="noopener noreferrer" className="social-icon slideIn">
-          <i className="fab fa-youtube"></i>
-        </a>
-      </div>
+      <div className="home-page">
+        <RainAnimation/>
 
-      {/*<h1 id="title" className="fadeIn">KUDRE</h1>*/}
+
+        {/*<h1 id="title" className="fadeIn">KUDRE</h1>*/}
 
         <div className="header_logo">
-        <img src="assets/logoheader.png" alt="Kudre Logo"></img>
-    </div>
+          <img src="assets/logoheader.png" alt="Kudre Logo"></img>
+        </div>
 
 
-      <div className="content">
-        <div className="box-1">
-          <a href="https://linktr.ee/kudreofficial" target="_blank" rel="noopener noreferrer" className="btn btn-one slideIn">
-            <span>MUSIC</span>
+        <div className="content">
+
+          <div className="box-1">
+            <Link to="/music" className="btn btn-one slideIn">
+              <span>MUSIC</span>
+            </Link>
+          </div>
+
+          <div className="box-1">
+            <Link to="/shows" className="btn btn-one slideIn">
+              <span>SHOWS</span>
+            </Link>
+          </div>
+
+          <div className="box-1">
+            <Link to="/contact" className="btn btn-one slideIn">
+              <span>CONTACT</span>
+            </Link>
+          </div>
+        </div>
+
+        <div className="social-links">
+          <a href="https://www.instagram.com/kudreofficial/" target="_blank" rel="noopener noreferrer"
+             className="social-icon slideIn">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/KudreOfficial/" target="_blank" rel="noopener noreferrer"
+             className="social-icon slideIn">
+            <i className="fab fa-facebook"></i>
+          </a>
+          <a href="https://www.tiktok.com/@jameskudrecrick" target="_blank" rel="noopener noreferrer"
+             className="social-icon slideIn">
+            <i className="fab fa-tiktok"></i>
+          </a>
+          <a href="https://www.youtube.com/@kudreofficial" target="_blank" rel="noopener noreferrer"
+             className="social-icon slideIn">
+            <i className="fab fa-youtube"></i>
           </a>
         </div>
 
-        <div className="box-1">
-          <Link to="/shows" className="btn btn-one slideIn">
-            <span>SHOWS</span>
-          </Link>
+        <div className="bio">
+          <p>
+            Will works in a pub. Jackson works
+            in an office. James retrofits stainless
+            steel woks with fucking lasers. One of
+            these is a lie. Together, it is a truth.
+            Kudre is southeast London's hottest new boy bands.
+          </p>
         </div>
 
-        <div className="box-1">
-        <Link to="/contact" className="btn btn-one slideIn">
-        <span>CONTACT</span>
-        </Link>
+        <div className="embedded-video">
+          <iframe
+              src="https://www.youtube.com/embed/WzhgJ2M6JGI"
+              title="Kudre Music Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen>
+          </iframe>
         </div>
-      </div>
 
-      <div className="bio">
-        <p>
-          Will works in a pub. Jackson works
-          in an office. James retrofits stainless
-          steel woks with fucking lasers. One of
-          these is a lie. Together, it is a truth.
-          Kudre is southeast London's hottest new boy bands.
-        </p>
-      </div>
-
-      <div className="embedded-video">
-        <iframe
-          src="https://www.youtube.com/embed/WzhgJ2M6JGI"
-          title="Kudre Music Video"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen>
-        </iframe>
-      </div>
-
-      <Carousel 
-            items={musicItems} 
-            className="music-carousel" 
+        <Carousel
+            items={musicItems}
+            className="music-carousel"
             header="Music Showcase" // Optional header
-            />     
+        />
 
-            <br></br>
+        <br></br>
 
-        <Carousel 
-            items={galleryItems} 
-            className="images-carousel" 
+        <Carousel
+            items={galleryItems}
+            className="images-carousel"
             header="Photo Gallery" // Optional header
-            />             
+        />
 
-<br></br>
-<br></br>
-<br></br>
+        <br></br>
+        <br></br>
+        <br></br>
 
 
-    </div>
+      </div>
   );
 };
 

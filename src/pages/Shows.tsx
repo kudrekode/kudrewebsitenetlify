@@ -11,14 +11,22 @@ const Shows: React.FC = () => {
       <BackButton />
 
       <div className="content-shows">
-        <h1>SHOWS</h1>
+        <h1>UPCOMING SHOWS</h1>
         <div className="shows-container">
-          <h2>Upcoming Shows</h2>
-          <div className="show-list">
-            <p>Shows TBC</p>
-            <p>Check back soon!</p>
-            {/* Add show items here when available */}
-          </div>
+            <div className="show-list">
+                <h3>15th March</h3>
+                <a href={"https://link.dice.fm/Z2c56552e461"}>The Finsbury - The Amber Bugs Launch Party</a>
+                {/*<p>Free Show</p>*/}
+                <a href={"https://link.dice.fm/Z2c56552e461"}>
+                    <img src="assets/amberbugs.png" alt="Amber Bugs Release Party" className="gigs-images"></img>
+                </a>
+                <h3>20th March</h3>
+                <a href={"https://skiddle.com/e/40647411/?skcampaign=Kudre"}>The Engine Rooms - Headline Show</a>
+                <a href={"https://skiddle.com/e/40647411/?skcampaign=Kudre"}>
+                    <img src="assets/enginerooms.png" alt="Amber Bugs Release Party" className="gigs-images"></img>
+                </a>
+
+            </div>
         </div>
       </div>
     </div>
