@@ -2,6 +2,9 @@
 
 A modern, responsive React-based website for the alt-rock band KUDRE.
 
+The website is hosted on Netlify, protected with CloudFlare, is regularly maintained and can be found here:
+https://www.kudre.co.uk/
+
 ## Key Features
 
 - **Dynamic Rain Animation Background**: Custom-built canvas-based animation featuring rain and lightning effects that creates an immersive atmosphere
