@@ -14,7 +14,7 @@ const Shows: React.FC = () => {
         <h1>UPCOMING SHOWS</h1>
         <div className="shows-container">
             <div className="show-list">
-                <h3>Upcoming Shows TBC!</h3>
+                <h3>Upcoming Shows TBC</h3>
                 {/*<h3>15th March</h3>*/}
                 {/*<a href={"https://link.dice.fm/Z2c56552e461"}>The Finsbury - The Amber Bugs Launch Party</a>*/}
                 {/*/!*<p>Free Show</p>*!/*/}
