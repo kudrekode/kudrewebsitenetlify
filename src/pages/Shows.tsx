@@ -15,9 +15,16 @@ const Shows: React.FC = () => {
         <div className="shows-container">
             <div className="show-list">
                 <h3>Upcoming Shows TBC</h3>
-                {/*<h3>15th March</h3>*/}
-                {/*<a href={"https://link.dice.fm/Z2c56552e461"}>The Finsbury - The Amber Bugs Launch Party</a>*/}
-                {/*/!*<p>Free Show</p>*!/*/}
+
+                {/*<h4>9th June</h4>*/}
+
+                <a href={"https://pit.live/events/james-sebastian"}>
+                    <img src="assets/9thjune.jpg" alt="Amber Bugs Release Party" className="gigs-images"></img>
+                </a>
+                <p>James Sebastian Supporting Show</p>
+                <p>New Cross Inn 9th June</p>
+
+
                 {/*<a href={"https://link.dice.fm/Z2c56552e461"}>*/}
                 {/*    <img src="assets/amberbugs.png" alt="Amber Bugs Release Party" className="gigs-images"></img>*/}
                 {/*</a>*/}

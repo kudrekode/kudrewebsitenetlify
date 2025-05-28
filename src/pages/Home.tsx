@@ -8,15 +8,14 @@ const Home: React.FC = () => {
 
     const musicItems = [
         {
-          image: 'assets/policestatevinyl.png',
-          title: 'Johnny No Mates Army (Police State)',
-          description: 'Check out our latest single Johnny No Mates Army (Police State)',
-          link: 'https://distrokid.com/hyperfollow/kudre/johnny-no-mates-army-police-state'
+          image: 'assets/sl2.png',
+          title: 'Strawberry Lace',
+          description: 'Strawberry Lace is out now!',
+          link: 'https://open.spotify.com/track/2hl9RVkwpTpI7eZaHkSKlA'
         },
         {
             image: 'assets/vinylmydesign.png',
             title: 'My Design',
-            // Description with a link at the end
             description: `Kudre presents "a dynamic trend where technic and body blend together 
               thanks to a good glue made of refined sounds well adapted to the musical 
               context that embellish the listening. 'My Design' lays the foundations on really spot on metrics and riffs."`,
