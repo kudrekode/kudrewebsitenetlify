@@ -11,7 +11,13 @@ body {
   font-family: 'Bebas Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('assets/SLbackground.png') repeat;
+  background-size: auto; /* or use 'contain' or 'cover' if you want to scale it */
+  /* You can add a fallback color if you want: */
+  background-color: #000;
 }
+
+
 
 /* Global link styles */
 a {

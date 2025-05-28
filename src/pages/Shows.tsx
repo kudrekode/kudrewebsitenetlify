@@ -14,7 +14,7 @@ const Shows: React.FC = () => {
         <h1>UPCOMING SHOWS</h1>
         <div className="shows-container">
             <div className="show-list">
-                <h3>Upcoming Shows TBC</h3>
+                {/* <h3>Upcoming Shows TBC</h3> */}
 
                 {/*<h4>9th June</h4>*/}
 

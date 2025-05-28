@@ -19,9 +19,9 @@ const RainAnimation: React.FC = () => {
     
     if (!ctx1 || !ctx2 || !ctx3) return;
 
-    const rainthroughnum = 500;
+    const rainthroughnum = 200;
     const speedRainTrough = 25;
-    const rainnum = 500;
+    const rainnum = 200;
     let w = canvas1.width = canvas2.width = canvas3.width = window.innerWidth;
     let h = canvas1.height = canvas2.height = canvas3.height = window.innerHeight;
 
@@ -85,7 +85,7 @@ const RainAnimation: React.FC = () => {
       const x = random(100, w - 100);
       const y = random(0, h / 4);
 
-      const createCount = random(1, 3);
+      const createCount = random(1, 1);
       for (let i = 0; i < createCount; i++) {
         lightning.push({
           x,

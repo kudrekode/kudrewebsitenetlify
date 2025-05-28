@@ -5,6 +5,14 @@
     gap: 1.5em; /* Space between icons */
 }
 
+.content-shows h1 {
+    color: #f70000;
+    font-size: 4.5em;
+}
+.content-shows p {
+    color: #f70000;
+    font-size: 1.5em;
+}
 .icon {
     width: 4em;
     height: 4em;
@@ -18,12 +26,13 @@
 }
 
 .icon i {
-    font-size: 2em; /* Adjust icon size */
+    font-size: 3.8em; /* Adjust icon size */
     transition: transform 0.3s ease; /* Optional: Make icon itself pop */
+    color: #f70000;
 }
 
 .icon:hover {
-    background-color: #006d77; /* Dark turquoise */
+    background-color: #dbdbdb; /* Dark turquoise */
     transform: scale(1.2); /* Expand the whole icon */
 }
 

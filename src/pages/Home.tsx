@@ -67,7 +67,7 @@ const Home: React.FC = () => {
         {/*<h1 id="title" className="fadeIn">KUDRE</h1>*/}
 
         <div className="header_logo">
-          <img src="assets/logoheader.png" alt="Kudre Logo"></img>
+          <img src="assets/header2.png" alt="Kudre Logo"></img>
         </div>
 
 

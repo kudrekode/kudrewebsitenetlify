@@ -6,15 +6,15 @@
   min-height: 510px;
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 80%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .carousel-header {
   text-align: center;
-  font-size: 2rem;
-  color: white;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   position: relative; /* Added */
@@ -23,7 +23,7 @@
 
 .carousel-content {
   position: relative; /* Added */
-  width: 100%;
+  width: 80%;
   height: 400px; /* Fixed height for content area */
   display: flex;
   align-items: center;
@@ -63,8 +63,8 @@
 .carousel-item img {
   width: auto;
   height: auto;
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 750px;
+  max-height: 750px;
   object-fit: contain;
   border-radius: 8px;
   margin: auto;
@@ -77,8 +77,8 @@
 }
 
 .carousel-item p {
-  font-size: 1rem;
-  color: #ccc;
+  font-size: 1.2rem;
+  color: #ffffff;
   max-width: 500px;
   margin: 0.5rem 0;
   text-align: center;
@@ -155,8 +155,8 @@
 
 /* Music carousel specific styles */
 .music-carousel {
-  background: rgba(0, 0, 0, 0.7);
-  border-radius: 10px;
+  background: rgb(0, 0, 0);
+  /* border-radius: 10px; */
   padding: 2rem;
   margin: 2rem auto;
   height: 600px; /* Fixed height */
@@ -174,8 +174,10 @@
 
 /* Images carousel specific styles */
 .images-carousel {
-  background: rgba(0, 0, 0, 0.7);
-  border-radius: 10px;
+  /* background: rgba(0, 0, 0, 0.272); */
+  background: rgb(0, 0, 0);
+
+  /* border-radius: 10px; */
   padding: 2rem;
   margin: 2rem auto;
   height: 500px; /* Fixed height */

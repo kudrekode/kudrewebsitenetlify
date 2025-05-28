@@ -1,21 +1,35 @@
 .contact-page {
     min-height: 100vh;
-    color: white;
+    color: rgb(255, 0, 0);
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
     padding: 2rem;
   }
 
+.contact-content p {
+  color: rgb(251, 251, 251);
+  background: rgb(0, 0, 0);
+  font-size: 1.6rem;
+  padding: 0.3em;
+}
+
+.contact-content h1 {
+
+  font-size: 4.6rem;
+}
+
+
 .contact-content{
     width: 100%;
     max-width: 1200px;
-    padding: 2rem;
+    padding: 1.8rem;
     margin-top: 2rem;
     text-align: center;
     max-width: 800px;
     margin: 3rem auto;
     line-height: 1.6;
     font-size: 2rem;
+
   }
 
 .contact-img-container{

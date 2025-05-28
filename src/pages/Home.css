@@ -12,7 +12,7 @@
 
 .header_logo img {
   padding-top: 20px;
-  max-width: 24%;
+  max-width: 34%;
 }
 
 .h1 {
@@ -30,14 +30,14 @@
   }
   
   .social-icon {
-    color: white;
-    font-size: 1.5rem;
+    color: #ff0000;
+    font-size: 2.5rem;
     transition: transform 0.3s ease;
   }
   
   .social-icon:hover {
     transform: scale(1.2);
-    color: #037171;
+    color: #ff0000;
     }
   
   
@@ -64,38 +64,33 @@
 }
 
 .btn {
-  position: relative; /* Confine pseudo-element to the button */
+  position: relative;
   display: block;
   text-decoration: none;
   line-height: 40px;
   font-size: 1.5rem;
-  border: 2px solid white;
-  transition: all 0.35s;
+  border: 4px solid black; /* Thick black border */
+  background: white; /* Plain white background */
+  color: black; /* Black text for contrast */
+  transition: background 0.5s cubic-bezier(0.4,0,0.2,1), color 0.5s cubic-bezier(0.4,0,0.2,1), border-color 0.5s cubic-bezier(0.4,0,0.2,1);
   text-align: center;
   padding: 0.5rem 0;
-  overflow: hidden; /* Ensure pseudo-element doesn’t overflow */
-}
-  
-  .btn span {
-    position: relative;
-    z-index: 2;
-  }
-  
-  .btn:after {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: white;
-    z-index: 1; /* Ensure it appears below text */
-    transition: all 0.35s;
+  overflow: hidden;
 }
 
 .btn:hover {
-    color: black;
-    z-index: 2; /* Ensure text stays above the pseudo-element */
+  background: #000000; /* Pink background on hover */
+  color: white; /* White text on pink */
+  border-color: #000000; /* Optional: border turns pink too */
+}
+
+.btn span {
+  position: relative;
+  z-index: 2;
+}
+
+.btn:after {
+  display: none; /* Remove the old pseudo-element effect */
 }
 
 .btn:hover:after {
@@ -105,7 +100,9 @@
   .bio {
     max-width: 800px;
     line-height: 1.6;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    background-color: #000000;
+    padding: 1rem;
   }
   
   .embedded-video {
@@ -219,7 +216,7 @@
       transition: all 0.35s;
       text-align: center;
       padding: 0.5rem 0;
-      overflow: hidden; /* Ensure pseudo-element doesn’t overflow */
+      overflow: hidden; /* Ensure pseudo-element doesn't overflow */
     }
 
   }
