@@ -19,7 +19,7 @@ const Shows: React.FC = () => {
                 {/*<h4>9th June</h4>*/}
 
                 <a href={"https://pit.live/events/james-sebastian"}>
-                    <img src="assets/9thjune.jpg" alt="Amber Bugs Release Party" className="gigs-images"></img>
+                    <img src="assets/temp-images/9thjune.jpg" alt="New Cross Inn 9th June" className="gigs-images"></img>
                 </a>
                 <p>James Sebastian Supporting Show</p>
                 <p>New Cross Inn 9th June</p>

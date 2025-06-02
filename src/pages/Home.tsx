@@ -8,13 +8,13 @@ const Home: React.FC = () => {
 
     const musicItems = [
         {
-          image: 'assets/sl2.png',
+          image: 'assets/music-covers/slvinyl.png',
           title: 'Strawberry Lace',
           description: 'Strawberry Lace is out now!',
           link: 'https://open.spotify.com/track/2hl9RVkwpTpI7eZaHkSKlA'
         },
         {
-            image: 'assets/vinylmydesign.png',
+            image: 'assets/music-covers/vinylmydesign.png',
             title: 'My Design',
             description: `Kudre presents "a dynamic trend where technic and body blend together 
               thanks to a good glue made of refined sounds well adapted to the musical 
@@ -23,7 +23,7 @@ const Home: React.FC = () => {
             articleLink: 'https://www.metalmusic.uk/kudre-my-design/' // Added article link
           },
           {
-            image: 'assets/pinkfull.png',
+            image: 'assets/music-covers/pinkfull.png',
             title: 'Pink',
             description: `"Pink" reflects on the themes of 
               mistakes and accountability. With powerful vocals, 
@@ -37,25 +37,29 @@ const Home: React.FC = () => {
     
       const galleryItems = [
         {
-          image: '/assets/bandpic.jpg',
+          image: '/assets/band-images/bandpicedit.jpg',
           alt: 'Band Photo'
         },
         {
-          image: '/assets/twopalmsaudience.jpg',
+          image: '/assets/band-images/twopalmsaudience.jpg',
           alt: 'Two Palms Show'
         },
         {
-          image: '/assets/spotifycover3.png',
+          image: '/assets/band-images/spotifycover3.png',
           alt: 'Kudre Spotify Cover'
         },
         {
-          image: '/assets/jacksonandjames.jpg',
+          image: '/assets/band-images/jacksonandjames.jpg',
           alt: 'Two Palms Show'
         },
         {
-          image: '/assets/will.jpg',
+          image: '/assets/band-images/will.jpg',
           alt: 'Will Two Palms'
         },
+          {
+          image: '/assets/band-images/jackson_james_rehearse.JPG',
+          alt: 'New Cross Rehearsals'
+          },
       ];
 
       
@@ -67,9 +71,27 @@ const Home: React.FC = () => {
         {/*<h1 id="title" className="fadeIn">KUDRE</h1>*/}
 
         <div className="header_logo">
-          <img src="assets/header2.png" alt="Kudre Logo"></img>
+          <img src="assets/band-misc/header2.png" alt="Kudre Logo"></img>
         </div>
 
+        <div className="social-links">
+          <a href="https://www.instagram.com/kudreofficial/" target="_blank" rel="noopener noreferrer"
+             className="social-icon slideIn">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/KudreOfficial/" target="_blank" rel="noopener noreferrer"
+             className="social-icon slideIn">
+            <i className="fab fa-facebook"></i>
+          </a>
+          <a href="https://www.tiktok.com/@jameskudrecrick" target="_blank" rel="noopener noreferrer"
+             className="social-icon slideIn">
+            <i className="fab fa-tiktok"></i>
+          </a>
+          <a href="https://www.youtube.com/@kudreofficial" target="_blank" rel="noopener noreferrer"
+             className="social-icon slideIn">
+            <i className="fab fa-youtube"></i>
+          </a>
+        </div>
 
         <div className="content">
 
@@ -92,32 +114,13 @@ const Home: React.FC = () => {
           </div>
         </div>
 
-        <div className="social-links">
-          <a href="https://www.instagram.com/kudreofficial/" target="_blank" rel="noopener noreferrer"
-             className="social-icon slideIn">
-            <i className="fab fa-instagram"></i>
-          </a>
-          <a href="https://www.facebook.com/KudreOfficial/" target="_blank" rel="noopener noreferrer"
-             className="social-icon slideIn">
-            <i className="fab fa-facebook"></i>
-          </a>
-          <a href="https://www.tiktok.com/@jameskudrecrick" target="_blank" rel="noopener noreferrer"
-             className="social-icon slideIn">
-            <i className="fab fa-tiktok"></i>
-          </a>
-          <a href="https://www.youtube.com/@kudreofficial" target="_blank" rel="noopener noreferrer"
-             className="social-icon slideIn">
-            <i className="fab fa-youtube"></i>
-          </a>
-        </div>
-
         <div className="bio">
           <p>
             Will works in a pub. Jackson works
             in an office. James retrofits stainless
-            steel woks with fucking lasers. One of
+            steel woks with fucking lasers. Joe. One of
             these is a lie. Together, it is a truth.
-            Kudre is southeast London's hottest new boy bands.
+            Kudre is southeast London's hottest new boy band.
           </p>
         </div>
 
@@ -134,7 +137,7 @@ const Home: React.FC = () => {
         <Carousel
             items={musicItems}
             className="music-carousel"
-            header="Music Showcase" // Optional header
+            // header="Music Showcase" // Optional header
         />
 
         <br></br>
@@ -142,15 +145,20 @@ const Home: React.FC = () => {
         <Carousel
             items={galleryItems}
             className="images-carousel"
-            header="Photo Gallery" // Optional header
+            // header="Photo Gallery" // Optional header
         />
 
         <br></br>
         <br></br>
         <br></br>
-
+        <br></br>
+        <br></br>
+        <br></br>
+        <p>HELLO BOTTOM PAGE DWELLERS</p>
 
       </div>
+
+      
   );
 };
 

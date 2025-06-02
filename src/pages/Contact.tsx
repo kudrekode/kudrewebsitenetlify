@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
             </p>
 
             <div className="contact-img-container">
-                <img src="assets/jacksonandjames.jpg" alt="Kudre Band" className="central-image" />
+                <img src="assets/band-images/jacksonandjames.jpg" alt="Kudre Band" className="central-image" />
             </div>
 
           </div>
