@@ -14,16 +14,21 @@ const Shows: React.FC = () => {
         <h1>UPCOMING SHOWS</h1>
         <div className="shows-container">
             <div className="show-list">
-                {/* <h3>Upcoming Shows TBC</h3> */}
+                {/*<h3>Upcoming Shows TBC</h3>*/}
 
                 {/*<h4>9th June</h4>*/}
 
-                <a href={"https://pit.live/events/james-sebastian"}>
-                    <img src="assets/temp-images/9thjune.jpg" alt="New Cross Inn 9th June" className="gigs-images"></img>
+                <a href={"https://gotobeat.com/gig/diezelbud-and-finches-live-at-strongroom-bar--iR"}>
+                    <img src="assets/temp-images/diezel.jpeg" alt="Strongroom 12th June" className="gigs-images"></img>
                 </a>
-                <p>James Sebastian Supporting Show</p>
-                <p>New Cross Inn 9th June</p>
+                <p>Diezelbud: Supporting Show</p>
+                <p>Strongroom 12th June</p>
 
+                <a href={"https://dice.fm/event/53nkek-junk-mail-diezelbud-kudre-matty-grainger-18th-jul-the-victoria-london-tickets?lng=en"}>
+                    <img src="assets/temp-images/thevic.png" alt="The Victoria 18th July" className="gigs-images"></img>
+                </a>
+                <p>The Victoria: Junk Mail, Diezelbud, Kudre</p>
+                <p>The Victoria 18th July</p>
 
                 {/*<a href={"https://link.dice.fm/Z2c56552e461"}>*/}
                 {/*    <img src="assets/amberbugs.png" alt="Amber Bugs Release Party" className="gigs-images"></img>*/}
