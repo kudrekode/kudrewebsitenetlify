@@ -18,17 +18,17 @@ const Shows: React.FC = () => {
 
                 {/*<h4>9th June</h4>*/}
 
-                <a href={"https://gotobeat.com/gig/diezelbud-and-finches-live-at-strongroom-bar--iR"}>
-                    <img src="assets/temp-images/diezel.jpeg" alt="Strongroom 12th June" className="gigs-images"></img>
+                <a href={"https://link.dice.fm/a9921a0162aa"}>
+                    <img src="assets/temp-images/1.png" alt="Jag Shoes 15th Aug" className="gigs-images"></img>
                 </a>
-                <p>Diezelbud: Supporting Show</p>
-                <p>Strongroom 12th June</p>
+                <p>Jaguar Shoes: Headline Show</p>
+                <p>Jaguar Shoes - 15th August</p>
 
-                <a href={"https://dice.fm/event/53nkek-junk-mail-diezelbud-kudre-matty-grainger-18th-jul-the-victoria-london-tickets?lng=en"}>
-                    <img src="assets/temp-images/thevic.png" alt="The Victoria 18th July" className="gigs-images"></img>
-                </a>
-                <p>The Victoria: Junk Mail, Diezelbud, Kudre</p>
-                <p>The Victoria 18th July</p>
+                {/*<a href={"https://dice.fm/event/53nkek-junk-mail-diezelbud-kudre-matty-grainger-18th-jul-the-victoria-london-tickets?lng=en"}>*/}
+                {/*    <img src="assets/temp-images/thevic.png" alt="The Victoria 18th July" className="gigs-images"></img>*/}
+                {/*</a>*/}
+                {/*<p>The Victoria: Junk Mail, Diezelbud, Kudre</p>*/}
+                {/*<p>The Victoria 18th July</p>*/}
 
                 {/*<a href={"https://link.dice.fm/Z2c56552e461"}>*/}
                 {/*    <img src="assets/amberbugs.png" alt="Amber Bugs Release Party" className="gigs-images"></img>*/}
